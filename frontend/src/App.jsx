@@ -1,14 +1,18 @@
 import ProjectsSection from "./components/ProjectsSection";
+import NavBar from "./components/NavBar";
 import profilePic from "./assests/profile.jpg"
 
 function App() {
   return (
     <div className="app">
+      {/* Nav Bar */}
+      <NavBar />
+
       {/* Hero */}
-      <header className="hero">
+      <header className="hero" id="home">
         <div className="hero__content">
           <p className="hero__eyebrow">Software Engineer · Full-Stack · AI & Computer Vision</p>
-          <h1>Hi, I'm Ronnie Jackson.</h1>
+          <h1>Hey, I'm Ronnie Jackson.</h1>
           <p className="hero__subtitle">B.S. Computer Science · Middle Tennessee State University</p>
 
           <p className="hero__tagline">
@@ -18,10 +22,13 @@ function App() {
           </p>
 
           <div className="hero__chips">
-            <span>React</span>
-            <span>Flask</span>
             <span>Python</span>
+            <span>C++</span>
+            <span>C#</span>
+            <span>C</span>
             <span>JavaScript</span>
+            <span>React</span>
+            <span>SQL</span>
             <span>Unity</span>
             <span>AI Integration</span>
           </div>
@@ -32,24 +39,6 @@ function App() {
             </a>
             <a href="mailto:RonnieJ507@gmail.com" className="btn btn--ghost">
               Contact Me
-            </a>
-          </div>
-
-          <div className="hero__links">
-            <a
-              href="https://github.com/RonnieJackson507"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-            <span>·</span>
-            <a
-              href="https://www.linkedin.com/in/ronnie-jackson-raj507"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
             </a>
           </div>
         </div>
