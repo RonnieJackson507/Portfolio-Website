@@ -1,11 +1,11 @@
 import ProjectsSection from "./components/ProjectsSection";
 import NavBar from "./components/NavBar";
 import profilePic from "./assests/profile.jpg"
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
     <div className="app">
-      {/* Nav Bar */}
       <NavBar />
 
       {/* Hero */}
@@ -37,21 +37,21 @@ function App() {
             <a href="#projects" className="btn btn--primary">
               View Projects
             </a>
-            <a href="mailto:RonnieJ507@gmail.com" className="btn btn--ghost">
+            <a href="#contact" className="btn btn--ghost">
               Contact Me
             </a>
           </div>
         </div>
 
-        {/* Profile photo */}
         <div className="hero__image">
           <img src={profilePic} alt="Ronnie Jackson" />
         </div>
       </header>
 
-      {/* Dynamic projects section */}
       <main>
         <ProjectsSection />
+
+        <ContactForm />
       </main>
     </div>
   );
