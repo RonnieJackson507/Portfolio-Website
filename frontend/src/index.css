@@ -1,0 +1,238 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #e5e7eb;
+  background-color: #020617; /* dark background */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #020617;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* App layout */
+.app {
+  min-height: 100vh;
+  color: #e5e7eb;
+  background:
+    linear-gradient(160deg, #020617 0%, #020617 40%, #0b1120 100%);
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* Hero */
+.hero {
+  max-width: 1080px;
+  margin: 0 auto 3rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero__image img {
+  width: 260px;
+  height: auto;
+  border-radius: 1rem;
+  object-fit: cover;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.45);
+  border: 2px solid rgba(255, 255, 255, 0.08);
+}
+
+.hero__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 4vw, 3.1rem);
+  margin: 0.3rem 0 0.6rem;
+}
+
+.hero__tagline {
+  max-width: 40rem;
+  color: #cbd5f5;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.hero__chips {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.hero__chips span {
+  font-size: 0.75rem;
+  padding: 0.22rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.7);
+  color: #e5e7eb;
+  background: rgba(15, 23, 42, 0.9);
+}
+
+.hero__actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.4rem;
+}
+
+.hero__links {
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  color: #9ca3af;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.hero__links a {
+  color: #93c5fd;
+}
+
+.btn {
+  border-radius: 999px;
+  padding: 0.6rem 1.35rem;
+  font-size: 0.9rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--primary {
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.btn--ghost {
+  background: transparent;
+  color: #e5e7eb;
+  border-color: #334155;
+}
+
+/* Projects section */
+.projects-section {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.projects-section__header h2 {
+  margin-bottom: 0.25rem;
+  font-size: 1.5rem;
+}
+
+.projects-section__header p {
+  margin-top: 0;
+  color: #9ca3af;
+  font-size: 0.95rem;
+}
+
+.projects-section__grid {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 1.3rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+/* Project card */
+.project-card {
+  background: radial-gradient(circle at top left, #020617, #020617 40%, #020617 60%, #020617);
+  border-radius: 1rem;
+  padding: 1rem 1.2rem 1.1rem;
+  border: 1px solid #1f2937;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.55);
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.project-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.project-card__timeframe {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.project-card__role {
+  font-size: 0.85rem;
+  color: #a5b4fc;
+}
+
+.project-card__description {
+  font-size: 0.9rem;
+  color: #e5e7eb;
+}
+
+.project-card__tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-card__tech-pill {
+  font-size: 0.7rem;
+  padding: 0.22rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  color: #bae6fd;
+}
+
+.project-card__highlights {
+  padding-left: 1.1rem;
+  margin: 0.1rem 0 0.4rem;
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.project-card__footer {
+  margin-top: 0.2rem;
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.project-card__link {
+  font-size: 0.8rem;
+  color: #38bdf8;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .app {
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  .hero {
+    margin-bottom: 2rem;
+  }
+
+  .hero__image img {
+    width: 180px;
+    margin-top: 1rem;
+  }
+}
