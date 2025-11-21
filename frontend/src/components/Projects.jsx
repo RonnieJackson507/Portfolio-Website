@@ -1,7 +1,7 @@
 import { projects } from "../data/projects";
 import ProjectCard from "./ProjectCard";
 
-export default function ProjectsSection() {
+export default function Projects() {
   return (
     <section className="projects-section" id="projects">
       <header className="projects-section__header">

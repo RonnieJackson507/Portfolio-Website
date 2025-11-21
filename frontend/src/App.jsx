@@ -1,7 +1,8 @@
-import ProjectsSection from "./components/ProjectsSection";
+import Projects from "./components/Projects";
 import NavBar from "./components/NavBar";
 import profilePic from "./assests/profile.jpg"
 import ContactForm from "./components/ContactForm";
+import About from "./components/About";
 
 function App() {
   return (
@@ -49,7 +50,9 @@ function App() {
       </header>
 
       <main>
-        <ProjectsSection />
+        <About />
+
+        <Projects />
 
         <ContactForm />
       </main>
