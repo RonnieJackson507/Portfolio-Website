@@ -1,4 +1,4 @@
-import { projects } from "../data/projects";
+import projects from "../data/projects.json";
 import ProjectCard from "./ProjectCard";
 
 export default function Projects() {

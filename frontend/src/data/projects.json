@@ -1,0 +1,95 @@
+[
+  {
+    "id": "marvel-comics-ai-recap",
+    "title": "Marvel Comic's AI Recap",
+    "timeframe": "June 2025",
+    "role": "Solo Project",
+    "tech": [
+      "React",
+      "Vite",
+      "Flask",
+      "Python",
+      "Ollama",
+      "Qwen2.5-VL",
+      "DeepSeek-R1",
+      "Marvel API"
+    ],
+    "shortDescription": "Scan Marvel comic barcodes, fetch issue data from the Marvel API, and generate AI-powered multi-paragraph recaps for collectors and new readers.",
+    "highlights": [
+      "Built a React + Vite frontend with live camera capture and barcode decoding.",
+      "Used Flask backend with local LLMs for supplement decoding and recap generation."
+    ],
+    "repoUrl": "https://github.com/RonnieJackson507/Marvel-Comics-AI-Recapper",
+    "demoUrl": null
+  },
+  {
+    "id": "pharmaflex",
+    "title": "PharmaFlex - Biomedical Waste Management Prototype",
+    "timeframe": "Oct 2024 - Dec 2024",
+    "role": "Solo Project",
+    "tech": ["Python", "SQLite", "Automation", "Data Processing"],
+    "shortDescription": "Prototype system to track biomedical waste, simulate barcode scanning, and automate compliance reporting.",
+    "highlights": [
+      "Implemented backend logic and automation in Python.",
+      "Designed a SQLite schema for inventory and compliance data."
+    ],
+    "repoUrl": "https://github.com/RonnieJackson507/PharmaFlex",
+    "demoUrl": null
+  },
+  {
+    "id": "drug-bug-mind-map",
+    "title": "Top 300 Drug and Bugs Mind Map",
+    "timeframe": "Dec 2023",
+    "role": "Collaboration",
+    "tech": ["Python", "Data Visualization"],
+    "shortDescription": "Visualization mind map connecting drugs with bacterial and fungal species, built from a structured Excel sheet.",
+    "highlights": [
+      "Transformed dense spreadsheet data into an intuitive visual map.",
+      "Collaborated with a student pharmacist/informaticist."
+    ],
+    "repoUrl": null,
+    "demoUrl": null
+  },
+  {
+    "id": "mtg-card-detector",
+    "title": "Magic the Gathering Card Detector",
+    "timeframe": "Feb 2022 - May 2022",
+    "role": "Team Project",
+    "tech": ["Python", "Neural Networks", "Computer Vision"],
+    "shortDescription": "Neural network that detects Magic the Gathering cards from user photos, regardless of orientation.",
+    "highlights": [
+      "Worked on designing and training a card recognition model.",
+      "Handled orientation invariance for images at arbitrary angles."
+    ],
+    "repoUrl": "https://github.com/RonnieJackson507/Magic-The-Gathering-Neural-Network",
+    "demoUrl": null
+  },
+  {
+    "id": "vr-interview-env",
+    "title": "Virtual Reality Interview Environment",
+    "timeframe": "Feb 2022 - May 2022",
+    "role": "Team Project with Vanderbilt",
+    "tech": ["Unity", "C#", "VR"],
+    "shortDescription": "VR office simulation for remote interviewing, focused on accessibility and user experience.",
+    "highlights": [
+      "Built VR office scenes and interactive flows in Unity.",
+      "Collaborated with Vanderbilt and classmates."
+    ],
+    "repoUrl": "https://github.com/RonnieJackson507/vr-office-proj",
+    "demoUrl": null
+  },
+  {
+    "id": "pong-breaker",
+    "title": "Pong Breaker",
+    "timeframe": "Feb 2022 - May 2022",
+    "role": "Solo Project",
+    "tech": ["Unity", "C#", "Game Dev"],
+    "shortDescription": "A game that combines Pong and Brick Breaker, with both single-player and multiplayer modes.",
+    "highlights": [
+      "Implemented arcade-style gameplay and physics.",
+      "Used Git for version control and iteration."
+    ],
+    "repoUrl": "https://github.com/RonnieJackson507/Pong-Breaker",
+    "demoUrl": null
+  }
+]

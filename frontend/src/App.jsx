@@ -1,6 +1,6 @@
 import Projects from "./components/Projects";
 import NavBar from "./components/NavBar";
-import profilePic from "./assests/profile.jpg"
+import profilePic from "./assests/profile.png"
 import ContactForm from "./components/ContactForm";
 import About from "./components/About";
 
