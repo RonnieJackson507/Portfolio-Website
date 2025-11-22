@@ -67,7 +67,8 @@
 }
 
 .contact-submit {
-  margin-top: 0.5rem;
+  display: block;
+  margin: 1rem auto 0;
 }
 
 .contact-hint {
@@ -76,8 +77,27 @@
   color: #6b7280;
 }
 
+.contact-status {
+  text-align: center;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: #93c5fd;
+}
+
+.contact-status.error {
+  color: #fca5a5;
+}
+
+.contact-status.success {
+  color: #bbf7d0;
+}
+
 @media (max-width: 640px) {
   .contact-form {
     padding: 1rem 1.1rem;
+  }
+
+  .contact-submit {
+    width: 100%;
   }
 }
