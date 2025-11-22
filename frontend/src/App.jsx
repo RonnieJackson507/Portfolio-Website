@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import profilePic from "./assests/profile.png"
 import ContactForm from "./components/ContactForm";
 import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
             <a href="#contact" className="btn btn--ghost">
               Contact Me
             </a>
+            <a href="/Ronnie_Jackson_Resume.pdf" className="btn btn--ghost">
+              Download Resume
+            </a>
           </div>
         </div>
 
@@ -59,6 +63,8 @@ function App() {
         <ContactForm />
       </main>
     </div>
+
+    <Footer />
     </>
   );
 }
