@@ -6,8 +6,10 @@ import About from "./components/About";
 
 function App() {
   return (
+    <>
+    <NavBar />
     <div className="app">
-      <NavBar />
+      
 
       {/* Hero */}
       <header className="hero" id="home">
@@ -57,6 +59,7 @@ function App() {
         <ContactForm />
       </main>
     </div>
+    </>
   );
 }
 
