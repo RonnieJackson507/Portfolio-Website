@@ -44,8 +44,8 @@ function App() {
           </div>
         </div>
 
-        <div className="hero__image">
-          <img src={profilePic} alt="Ronnie Jackson" />
+        <div className="hero__image-wrapper">
+          <img src={profilePic} alt="Ronnie Jackson" className="hero__image"/>
         </div>
       </header>
 

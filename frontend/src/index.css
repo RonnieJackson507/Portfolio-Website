@@ -38,21 +38,25 @@ a {
 /* Hero */
 .hero {
   max-width: 1080px;
-  margin: 0 auto 3rem auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  margin: 0 auto 3rem;
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
   gap: 2rem;
-  flex-wrap: wrap;
+  align-items: center;
+  min-height: 380px;
 }
 
-.hero__image img {
-  width: 260px;
+.hero__image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__image {
+  width: 100%;
+  max-width: 360px;          /* tweak this to taste: 320–380px */
   height: auto;
-  border-radius: 1rem;
-  object-fit: cover;
-  box-shadow: 0 10px 35px rgba(0,0,0,0.45);
-  border: 2px solid rgba(255, 255, 255, 0.08);
+  object-fit: contain;
 }
 
 .hero__eyebrow {
@@ -221,11 +225,21 @@ a {
   }
 
   .hero {
-    margin-bottom: 2rem;
+    grid-template-columns: 1fr;
+    text-align: center;
+    min-height: unset;
   }
 
-  .hero__image img {
-    width: 180px;
-    margin-top: 1rem;
+  .hero__image-wrapper {
+    order: -1;                /* image ABOVE the text */
+    margin-bottom: 0.75rem;
+  }
+
+  .hero__image {
+    max-width: 260px;
+  }
+
+  .hero__content {
+    text-align: center;
   }
 }
