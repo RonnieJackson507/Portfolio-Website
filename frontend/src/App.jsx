@@ -44,7 +44,7 @@ function App() {
             <a href="#contact" className="btn btn--ghost">
               Contact Me
             </a>
-            <a href="/Ronnie_Jackson_Resume.pdf" className="btn btn--ghost">
+            <a href="/Ronnie_Jackson_Resume.pdf" download="Ronnie_Jackson_Resume.pdf" className="btn btn--ghost">
               Download Resume
             </a>
           </div>
