@@ -36,7 +36,7 @@ export default function ContactForm() {
         <p>
           Have a question about my projects or experience, or how I built
           something? Send me a message —
-          it will go straight to my inbox.
+          it will go straight to my inbox. I typically respond within 24-48 hours.
         </p>
       </header>
 
