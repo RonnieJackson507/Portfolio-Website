@@ -26,12 +26,13 @@
     "id": "pharmaflex",
     "title": "PharmaFlex - Biomedical Waste Management Prototype",
     "timeframe": "Oct 2024 - Dec 2024",
-    "role": "Solo Project",
-    "tech": ["Python", "SQLite", "Automation", "Data Processing"],
+    "role": "Collaboration",
+    "tech": ["Python", "Flask", "SQLite", "Automation", "Data Processing"],
     "shortDescription": "Prototype system to track biomedical waste, simulate barcode scanning, and automate compliance reporting.",
     "highlights": [
       "Implemented backend logic and automation in Python.",
-      "Designed a SQLite schema for inventory and compliance data."
+      "Designed a SQLite schema for inventory and compliance data.",
+      "Collaborated with a student pharmacist/informaticist."
     ],
     "repoUrl": "https://github.com/RonnieJackson507/PharmaFlex",
     "demoUrl": null
@@ -82,7 +83,7 @@
     "id": "pong-breaker",
     "title": "Pong Breaker",
     "timeframe": "Feb 2022 - May 2022",
-    "role": "Solo Project",
+    "role": "Team Project",
     "tech": ["Unity", "C#", "Game Dev"],
     "shortDescription": "A game that combines Pong and Brick Breaker, with both single-player and multiplayer modes.",
     "highlights": [
